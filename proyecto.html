@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="proyecto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="celular">
+    <header>
+        <nav>
+            <a href="carrito.html"><img src="imagenes/compra.png" class="compra"></a>
+
+           <a href="user.html"><img src="imagenes/user.png" class="user" ></a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+                <ul>
+                    <li><a class="active" href="#inicio">Incio</a></li>
+                    <li><a href="#productos">Producto</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li class="salir">Salir menu</li>
+                </ul>
+            </label>
+            <img src="imagenes/logo.png" width="20%">
+           
+        </nav>
+        <section class="barra">
+            <form method="get" id="buscarform" class="busqueda">
+                <input aling="center" type="text" id="s"    placeholder="Buscar producto"  />
+                <input class="button" type="submit" aria-placeholder="Buscar"  />
+            </form>
+        </section>
+    </header>
+    
+    <main>
+
+            <img src="imagenes/inicio.png" id="inicio" class="inicio">
+            <section class="inicio1">
+                <h3 class="titulo">¡Descubre la Magia de tus Rizos!</h3>
+                <p>En Rizos Radiantes, sabemos que cada rizo cuenta una historia única. Por eso, hemos seleccionado una gama de productos diseñados especialmente para resaltar y cuidar la belleza natural de tu cabello rizado. Navega por nuestra colección y encuentra todo lo que necesitas para mantener tus rizos definidos, hidratados y llenos de vida.</p>
+            </section>
+
+        <section >
+            <h3 class="titulo" id="productos">productos</h3>
+
+            <table  class="productos">
+                <tr>
+                    <th> <img src="imagenes/accesorio1.png" width="25%"> <br> <a href="#accesorios"><h5>Accesorios</h5></a></th>
+                
+                    <th> <img src="imagenes/shampoo.png" width="25%"><a href="#shampoo"><h5>Shampoo</h5></a></th>
+                </tr>
+                <tr>
+                    <th><img src="imagenes/acondicionador.png" width="25%"> <br> <a href="#acondicionador"><h5>Acondicionador</h5></a></th>
+                
+                    <th> <img src="imagenes/cepillo.png" width="25%"> <br> <a href="#cepillos"><h5>Cepillos</h5></a></th>
+                </tr>
+                <tr>
+                    <th> <img src="imagenes/crema.png" width="25%"> <br> <a href="#crema"><h5>Crema</h5></a></th>
+    
+                </tr>
+            </table>
+        </section>
+
+        <section id="accesorios">
+            <h3 class="titulo">Accesorios</h3>
+            <p class="info">Nuestras herramientas y accesorios para el cabello le brindan todo lo que necesita para un peinado diario, desde difusores para el cabello y toallas de microfibra hasta cepillos y peines para desenredar.</p>
+            <table class="product-table">
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/accesorios2.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                        <h3>Pinza X 2 Unid Gancho Coquette Lazo Moño Hebilla Broche Clip</h3>
+                        <p>$18.893</p>
+                        <a href="productos.html"><button>Mas informacion</button></a>
+                        
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/accesorios3.png" alt="Cepillo Para Cabello-Crespo Desenredante">
+                        <h3>Ganchos Cabello Mini Caimán Piojitos Niñas X 30 Unidades</h3>
+                        <p>$11.893</p>
+                        <a href="#"><button>Mas informacion</button></a>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/accesorios4.png" alt="Set Balacas + Scrunchies Satin X 6">
+                        <h3>Set Balacas + Scrunchies Satin X 6</h3>
+                        <p>$18.177</p>
+                        <a href="#"><button>Mas informacion</button></a>
+                        
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/accesorios5.png" alt="Gorro Satin Seda + Rizador Sin Calor + 2 Fundas + Scrunchie">
+                        <h3>Gorro Satin Seda + Rizador Sin Calor + 2 Fundas + Scrunchie</h3>
+                        <p>$73.150</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/accesorios6.png" alt="Difusor De Secador De Pelo Plegable">
+                        <h3>Difusor De Secador De Pelo Plegable</h3>
+                        <p>$39.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/accesorios7.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                        <h3>Denman D3 ORIGINAL STYLER 7 ROW</h3>
+                        <p>$86.500</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section >
+            <h3 id="shampoo" class="titulo">Shampoo</h3>
+            <p class="info">Mantenga su cabello limpio y saludable con nuestra selección de champús para el cabello rizado, que incluyen champús humectantes, limpiadores sin proteínas y más, especialmente formulados para cada tipo de rizo.</p>
+            <table class="product-table">
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/shampoo1.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                        <h3>SheaMoisture Raw Shea Butter Moisture Retention Shampoo (13 oz.)</h3>
+                        <p>$87.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/shampoo2.png" alt="Cepillo Para Cabello-Crespo Desenredante">
+                        <h3>SheaMoisture Manuka Honey & Yogurt Hydrate + Repair Shampoo (13 oz.)</h3>
+                        <p>$87.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/shampoo3.png" alt="Set Balacas + Scrunchies Satin X 6">
+                        <h3>SheaMoisture Moringa & Avocado Power Greens Shampoo (13 oZ)</h3>
+                        <p>$99.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/shampoo4.png" alt="Gorro Satin Seda + Rizador Sin Calor + 2 Fundas + Scrunchie">
+                        <h3>SheaMoisture Low Porosity Weightless Hydrating Shampoo (13 oz.)</h3>
+                        <p>$76.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/shampoo5.png" alt="Difusor De Secador De Pelo Plegable">
+                        <h3>SheaMoisture PAPAYA & NEROLI ALL DAY FRIZZ CONTROL SHAMPOO (13 oZ)</h3>
+                        <p>$89.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                       
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/shampoo6.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                        <h3>SheaMoisture Red Palm Oil & Cocoa Butter Hi-Slip Detangling Shampoo (13.5 oz.)</h3>
+                        <p>$85.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="acondicionador">
+            <h3 class="titulo">Acondicionador</h3>
+            <p class="info">Descubre nuestra selección de acondicionadores diseñados para nutrir y revitalizar todo tipo de cabellos.</p>
+                <table class="product-table">
+                    <tr>
+                        <td class="product-card">
+                            <img src="imagenes/acondicionador1.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                            <h3>SheaMoisture Raw Shea Butter Restorative Conditioner (13 oz.)</h3>
+                            <p>$87.000</p>
+                            <a href="#"><button>Mas informacion</button></a>
+
+                           
+                        </td>
+                        <td class="product-card">
+                            <img src="imagenes/acondicionador2.png" alt="Cepillo Para Cabello-Crespo Desenredante">
+                            <h3>EDEN BodyWorks Coconut Shea Curl Defining Creme (16 oz.)</h3>
+                            <p>$95.000</p>
+                            <a href="#"><button>Mas informacion</button></a>
+
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="product-card">
+                            <img src="imagenes/acondicionador3.png" alt="Set Balacas + Scrunchies Satin X 6">
+                            <h3>As I Am Coconut CoWash Cleansing Conditioner (16 oz.)
+                            </h3>
+                            <p>$69.000</p>
+                            <a href="#"><button>Mas informacion</button></a>
+
+                            
+                        </td>
+                        <td class="product-card">
+                            <img src="imagenes/acondicionador4.png" alt="Gorro Satin Seda + Rizador Sin Calor + 2 Fundas + Scrunchie">
+                            <h3>Cantu Coconut Curling Cream (12 oz.) </h3>
+                            <p>$70.000</p>
+                            <a href="#"><button>Mas informacion</button></a>
+
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="product-card">
+                            <img src="imagenes/acondicionador5.png" alt="Difusor De Secador De Pelo Plegable">
+                            <h3>Garnier Fructis: Hair Food Coco Fructis 350 ml</h3>
+                            <p>$34.000</p>
+                            <a href="#"><button>Mas informacion</button></a>
+
+                            
+                        </td>
+                        <td class="product-card">
+                            <img src="imagenes/acondicionador6.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                            <h3>SheaMoisture Coconut & Hibiscus Curl and Shine Hair Masque (12 oz.)</h3>
+                            <p>$85.000</p>
+                            <a href="#"><button>Mas informacion</button></a>
+
+                            
+                        </td>
+                    </tr>
+                </table>
+            </section>
+
+        <section id="crema">
+            <h3 class="titulo">Cremas</h3>
+            <p class="info">Conoce nuestras cremas para el cabello, ideales para hidratar, definir y proteger tu cabello todos los días.</p>
+            <table class="product-table">
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/crema1.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                        <h3>Máscara Skala Expert #MaisCachos hidratación de 1000mL 1000g</h3>
+                        <p>$23.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/crema2.png" alt="Cepillo Para Cabello-Crespo Desenredante">
+                        <h3>Leche Pal Pelo Rizos Y Afro 250ml</h3>
+                        <p>$21.434</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/crema3.png" alt="Set Balacas + Scrunchies Satin X 6">
+                        <h3>Etniker Crema Para Peinar X 500
+                        </h3>
+                        <p>$37.900</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/crema4.png" alt="Gorro Satin Seda + Rizador Sin Calor + 2 Fundas + Scrunchie">
+                        <h3>Cantu Metodo Curly Girl Activador Humectante Rizos </h3>
+                        <p>$60.800</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/crema5.png" alt="Difusor De Secador De Pelo Plegable">
+                        <h3>Recamier Pro Curls Waves - mL</h3>
+                        <p>$31.800</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                       
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/crema6.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                        <h3>Crema Skala Expert Divino Potao Crespo 2 En 1</h3>
+                        <p>$30.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+
+        <section id="cepillos">
+            <h3 class="titulo">cepillo</h3>
+            <p class="info">Explora nuestra gama de cepillos diseñados para desenredar y cuidar tu cabello.</p>
+            <table class="product-table">
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/cepillo1.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                        <h3>Cepillo Definidor Para Cabello Rizado ,ondulado</h3>
+                        <p>$29.900</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/cepillo2.png" alt="Cepillo Para Cabello-Crespo Desenredante">
+                        <h3>Cepillo Desenredante Peine Anti Frizz Cabello Rizado</h3>
+                        <p>$10.490</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/cepillo3.png" alt="Set Balacas + Scrunchies Satin X 6">
+                        <h3>Cepillo Masajeador Exfoliante De Silicona Para Ducha</h3>
+                        <p>$19.900</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/cepillo4.png" alt="Gorro Satin Seda + Rizador Sin Calor + 2 Fundas + Scrunchie">
+                        <h3>Cepillo Cabello Crespo Flexible Desenredante Rizos </h3>
+                        <p>$17.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="product-card">
+                        <img src="imagenes/cepillo5.png" alt="Difusor De Secador De Pelo Plegable">
+                        <h3>Cepillo Para Peinados, Cepillo De Bordes, Peinilla</h3>
+                        <p>$20.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                    <td class="product-card">
+                        <img src="imagenes/cepillo6.png" alt="Denman D3 ORIGINAL STYLER 7 ROW">
+                        <h3>Cepillo Para Cabello - Hair Brush / Definidor De Rizos</h3>
+                        <p>$60.000</p>
+                        <a href="#"><button>Mas informacion</button></a>
+
+                        
+                    </td>
+                </tr>
+            </table>
+        </section> 
+
+        <section class="nosotros" id="nosotros">
+            <h3 class="titulo">Nosotros</h3>
+            <img src="imagenes/nosotros1.png" width="100%">
+            <div class="section">
+                <h3 class="titulo">¡Bienvenidos a [Nombre de la Tienda]!</h3>
+                <p>En Rizos Radiantes, entendemos que el cabello rizado no es solo un tipo de cabello, sino un estilo de vida. Estamos dedicados a proporcionar los mejores productos y herramientas para ayudarte a abrazar y cuidar tus rizos con orgullo y confianza.</p>
+            </div>
+        
+            <div class="section">
+                <h3 class="titulo">Nuestra Historia</h3>
+                <p>Nuestra pasión por el cabello rizado comenzó cuando nos dimos cuenta de la falta de productos adecuados en el mercado para las personas con rizos. Decidimos crear un espacio donde la belleza natural y la salud del cabello rizado sean la prioridad. Así nació Rizos Radiantes, un lugar donde cada rizo, bucle y onda es celebrado.</p>
+            </div>
+        
+            <div class="section">
+                <h3 class="titulo">Nuestros Productos</h3>
+                <p>Seleccionamos cuidadosamente cada uno de nuestros productos para asegurarnos de que cumplen con los más altos estándares de calidad. Desde champús y acondicionadores hasta cremas y geles para definir rizos, cada artículo en nuestra tienda está diseñado para mejorar la salud y apariencia de tu cabello rizado. Trabajamos con marcas que comparten nuestra visión y compromiso con la excelencia.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="Contacto" id="contacto">
+
+        <h3>Contáctanos</h3>
+        <p>Email: contacto@tienda.com</p>
+        <p>Teléfono: +57 123 456 789</p>
+        <p>Dirección: Calle Falsa 123, Bucaramanga, Colombia</p>
+    </div>
+    </div>
+    </footer>
+    </div>
+
+    <div class="computadora">
+        <img src="imagenes/advertencia.png" width="70%">
+    </div>
+
+</body>
+</html>

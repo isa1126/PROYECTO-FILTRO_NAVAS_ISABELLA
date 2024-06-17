@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div class="celular">
+        <form action="" method="post">
+            <h2 class="titulo">Registro</h2>
+            <ul>
+                <li>
+                    <label class="titulo" for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label class="titulo" for="email">Correo elecetronico:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label class="titulo" for="Teléfono">Celular:</label>
+                    <input type="tel" id="celular" name="user_celular" placeholder="+57">
+                </li>
+                <li>
+                    <label class="titulo" for="date">Date:</label> 
+                    <input type="date" name="date" placeholder="DD/MM/YYYY" min="1970/01/01" max="2024/01/01" />
+                </li>
+                <li>
+                    <label class="titulo" for="contraseña">Contraseña:</label>
+                    <input type="password" pattern="{6,}" id="name" name="contraseña">
+                <li class="ingresar"><a href="proyecto.html">Ingresar</a></li>
+            </ul>
+        </form>
+    </div>
+    <div class="computadora">
+        <img src="imagenes/advertencia.png" width="70%">
+    </div>
+    
+</body>
+</html>

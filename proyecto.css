@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #864B3F ;
+    height: 100px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #000090;
+    transition: .5s;
+}
+.user{
+    font-size: 200%;
+    float:right;
+    line-height: 400%;
+    margin-right: 3%;
+    cursor: pointer;
+    width: 25%;
+    height: 80%;
+}
+.compra{
+    font-size: 220%;
+    float:right;
+    line-height: 420%;
+    margin-right: 3%;
+    cursor: pointer;
+    width: 25%;
+    height: 90%;
+}
+.checkbtn{
+    font-size: 200%;
+    color: #fff;
+    float: right;
+    line-height: 300%;
+    margin-right: 3%;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.salir{
+    border: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: #CDB1AB;
+        padding-top: 80px;
+        top: 0px;
+        left: -100%;
+        text-align: center;
+        transition: all .3s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        transition-duration: 5s;
+    }
+    li a:hover, li a.active{
+        background: none;
+        
+    }
+    #check:checked + label > ul{
+        left:0;
+        z-index: 1;
+    }
+}
+/*encabezado fijo*/
+main{
+    padding-top: 150px;
+}
+/*barra de busqueda*/
+.barra{
+    margin: 1%;
+    margin-left: 20%;
+}
+/*productos navegar*/
+.producto{
+    color:#864B3F;
+}
+/*productos categorias*/
+.titulo{
+    margin: 3%;
+    font-family: Helvetica, Arial, sans-serif;
+    color:#864B3F;
+}
+.info{
+    margin: 3%;
+}
+.cuadro{
+    width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff ;
+    box-shadow: 0px 4px 18px rgba(0,0,0,0.1);
+    transition: all 400ms ease;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.cuadro:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translate(-3%);
+    margin-left: 10%;
+    }
+
+.cuadro img{
+        width: 100%;
+        height: auto;
+}
+/*motrar productos cuadro*/
+.product-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    width: auto;
+    height: auto;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.product-card p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+select {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+/*imgen inicio*/
+.inicio{
+    width: 100%;
+    height: 50%;
+    margin-top: 0%;
+}
+.inicio1{
+   font-family: cursive;
+   margin-left: 3%;
+   margin-right: 3%;
+   justify-content: center;
+   container-type: inline-size;
+}
+/* info nostros*/
+.section {
+    width: 80%;
+    margin: 10% 10%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideIn 2s ease-out;
+}
+.section:nth-child(1) {
+    animation-name: slideInLeft;
+}
+.section:nth-child(2) {
+    animation-name: slideInRight;
+}
+.section:nth-child(3) {
+    animation-name: slideInLeft;
+}
+.section h1, .section h2 {
+    color: #8B0000;
+}
+.section p {
+    color: #333;
+    line-height: 1.6;
+}
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*Pie de pagina*/
+footer{
+    background-color: #864B3F;
+    padding: 3% 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+}
+/*boton compra*/
+button{
+    background-color: #CDB1AB;
+    border-color: transparent;
+}
+
+/*letrero*/
+.celular {
+    display: none;
+}
+.computadora {
+    display: none;
+    height: auto;
+    margin: 20%;
+    margin-left: 20%;
+    margin-top: 3%;
+    width:70%;
+
+}
+@media (max-width: 768px) {
+    .celular {
+        display: block;
+    }
+}
+@media (min-width: 769px) {
+    .computadora {
+        display: block;
+    }
+}
